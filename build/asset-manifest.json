@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.2cbb8003.css",
-    "main.js": "/static/js/main.f655a0bc.js",
+    "main.js": "/static/js/main.7a94bd02.js",
     "static/media/wedding-main.jpg": "/static/media/wedding-main.40eca1bcd477545d1669.jpg",
     "static/media/jewelry-main.jpg": "/static/media/jewelry-main.fb29fbfc63aaf65bd80e.jpg",
     "static/media/main-photo.jpg": "/static/media/main-photo.f676b14deeb40d169de9.jpg",
     "static/media/sara logo.png": "/static/media/sara logo.60517756014118a9991b.png",
     "index.html": "/index.html",
     "main.2cbb8003.css.map": "/static/css/main.2cbb8003.css.map",
-    "main.f655a0bc.js.map": "/static/js/main.f655a0bc.js.map"
+    "main.7a94bd02.js.map": "/static/js/main.7a94bd02.js.map"
   },
   "entrypoints": [
     "static/css/main.2cbb8003.css",
-    "static/js/main.f655a0bc.js"
+    "static/js/main.7a94bd02.js"
   ]
 }

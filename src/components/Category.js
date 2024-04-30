@@ -5,7 +5,7 @@ const Category = ({ products, setFilteredProducts }) => {
 
   useEffect(() => {
     setFilteredProducts(products);
-  }, [products]);
+  }, [products, setFilteredProducts]);
   
   const handleCategoryChange = (category) => {
     setSelectedCategory(category);

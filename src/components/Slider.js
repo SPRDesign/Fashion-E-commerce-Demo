@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import WomanImg1 from '../img/wedding-main.jpg';
 import WomanImg2 from '../img/main-photo.jpg';
 import WomanImg3 from '../img/jewelry-main.jpg';
@@ -15,9 +15,9 @@ const Slider = () => {
     { pretitle: 'Limited Edition', title: 'Exclusive Collection', subtitle: 'Jewelry', linkText: 'View Collection' }
   ];
 
-  const nextSlide = () => {
+  const nextSlide = useCallback(() => {
     setCurrentSlide((prevSlide) => (prevSlide + 1) % images.length);
-  };
+  }, [images.length]);
 
   const prevSlide = () => {
     setCurrentSlide((prevSlide) =>
@@ -45,6 +45,7 @@ const Slider = () => {
     return () => clearInterval(interval);
   }, [nextSlide]);
 
+ 
   return (
     <section className='relative overflow-hidden'>
       <div className='relative w-full h-screen'>

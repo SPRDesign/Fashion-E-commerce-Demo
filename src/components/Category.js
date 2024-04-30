@@ -5,8 +5,8 @@ const Category = ({ products, setFilteredProducts }) => {
 
   useEffect(() => {
     setFilteredProducts(products);
-  }, []);
-
+  }, [products]);
+  
   const handleCategoryChange = (category) => {
     setSelectedCategory(category);
     let filteredProducts;
@@ -19,7 +19,6 @@ const Category = ({ products, setFilteredProducts }) => {
 
     setFilteredProducts(filteredProducts);
   };
-
 
   return (
     <div className="flex justify-center mt-8">

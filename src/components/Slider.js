@@ -43,7 +43,7 @@ const Slider = () => {
     }, 5000);
 
     return () => clearInterval(interval);
-  }, []);
+  }, [nextSlide]);
 
   return (
     <section className='relative overflow-hidden'>

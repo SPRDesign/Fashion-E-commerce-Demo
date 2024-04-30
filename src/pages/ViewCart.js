@@ -10,7 +10,7 @@ import { SiAmericanexpress } from "react-icons/si";
 
 
 const ViewCart = () => {
-    const { cart, total, itemAmount } = useContext(CartContext);
+    const { cart, total } = useContext(CartContext);
 
     return (
         <div className="flex flex-col lg:flex-row justify-center w-full lg:w-3/4 mx-auto mt-40">
